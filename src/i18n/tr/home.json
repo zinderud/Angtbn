@@ -1,0 +1,11 @@
+{
+    "home": {
+        "title": "Merhaba!",
+        "subtitle": "Burası Ana Sayfanız",
+        "logged": {
+            "message": "\"{{firstName}}\" olarak giriş yaptınız."
+        },
+        "question": "Bir Sorun var  mı" 
+     
+    }
+}

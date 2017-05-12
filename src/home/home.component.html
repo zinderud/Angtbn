@@ -1,0 +1,23 @@
+<div class="row">
+  
+    <div class="col-md-9">
+        <h1 class="display-4" tbnTranslate="home.title">Welcome </h1>
+        <p class="lead" tbnTranslate="home.subtitle">This is your homepage</p>
+
+        <div  *ngIf="(isLoggedIn | async)" >
+          
+
+       
+
+            <div class="alert alert-warning" *ngIf="(isLoggedIn | async)">
+                <span tbnTranslate="global.messages.info.register.noaccount">You don't have an account yet?</span>
+                <a class="alert-link" routerLink="register" tbnTranslate="global.messages.info.register.link">Register a new account</a>
+            </div>
+        </div>
+
+        <p tbnTranslate="home.question">
+            If you have any question 
+        </p>
+ 
+    </div>
+</div>
